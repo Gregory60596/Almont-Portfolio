@@ -11,28 +11,26 @@
 	<body>
 		<nav>
 			<div class="profile">
-				<img src="PHOTO_CV.jpg" 
-                />
+				<img src="PHOTO_CV.jpg" alt="profile photo" />
 				<h1>Grégory Almont</h1>
 			</div>
-
-            <div class="onglets">
-			<ul>
-				<a href="ALMONT Portfolio.html"> Accueil</a>
-				<a href="Réalisations.html"> Réalisations</a>
-				<a href="Curiculum vitae.html"> Curriculum Vitae</a>
-				<a href="Contacter.html">Contact </li></a> 
-			</ul>
-        </div>
-         
+			<div class="onglets">
+                <ul>
+                    <a href="ALMONT Portfolio.html"> Accueil</a>
+                    <a href="Réalisations.html"> Réalisations</a>
+                    <a href="Curiculum vitae.html"> Curriculum Vitae</a>
+                    <a href="Contacter.html">Contact </li></a> 
+                </ul>
+            </div>
 		</nav>
 
 		<section class="page-content">
 			<header>
-				<h1>Bienvenue je suis étudiant en DUT MMI .</h1>
+				<h1>Bienvenue <br>je suis étudiant en DUT MMI</br> </h1>
 				<p>
-				Mon parcours, mes choix, mes compétences,
-                mes expériences tout est dans cette section.
+					Vous êtes arrivés sur l'espace personnel
+                    de Grégory ALMONT, qui sera votre futur
+                    employé ou stagiaire.
 				</p>
 				<button>Apprenez à me connaître</button>
 			</header>
@@ -40,68 +38,43 @@
 			<section class="presentation-image">
 				<img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
 			</section>
-
-			<body>
-
-            
-                
-            
-                <!-- Infos de biographie (photo, texte, etc.) -->
-        
-            
-                    <div class="w3-twothird w3-container">
-                        <h2>Moi</h2>
-                        <p class="w3-large"> Je m'appelle Grégory j'ai 19 ans <strong> Je suis en DUT MMI </strong>..</p>
-                        <p class="w3-text-grey">J’ai l’envie d’évoluer dans les domaines de la communication, du design, de la publicité. 
-                            Je trouve ce secteur d’activité enrichissant quant aux créations dont on peut faire preuve, 
-                            à l’information que l’on peut apporter aux différents publics cible. </p>
-
-                            <h2>Compétences</h2>
-                    </div>
-                </div>
-            
-                <div class="about skills">
-                
-               <!-- Barres de compétences -->
-                <div class="box">
-                    <h4>Adobe XD</h4>
-                    <div class="percent">
-                        <div style="width: 98%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Photoshop</h4>
-                    <div class="percent">
-                        <div style="width: 80%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>After Effect</h4>
-                    <div class="percent">
-                        <div style="width: 50%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>PrmierePro</h4>
-                    <div class="percent">
-                        <div style="width: 69%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Indesign</h4>
-                    <div class="percent">
-                        <div style="width: 74%;"></div>
-                    </div>
-                </div>
-            
-                <p class="CV">
-                    <button class="bouton">
-                        <a href="file:///C:/Users/klody/OneDrive/Documents/CV%202022.pdf">Télécharger mon cv</a></button>
+           
+           
+            <section class="projects-section">
+				<h1>Projets réalisés</h1>
+				<div class="projects">
+					
+            <div class="project">
+                <h4>Puzzle</h4>
+                <img src="Capture d’écran 2022-01-10 095246.png" alt=""> 
+                <p class="description">
+                    Puzzle réalisé à l'occasion du projet tutoré.
+                    <br> Enigma puzzle qui pousse à la réflexion et au jeu </br>
                 </p>
-            
-                 </div>
-            
-              
+                <p class="dates">Date 2021</p>
+            </div>
+            <div class="project">
+                <h4>T-shirt</h4>
+                <img src="Tricot_lusophone.png"alt=""> 
+                <p class="description">
+                    Fabrication de motifs.
+                    <br> T-shirts symbolisant des villes de pays lusophones </br>
+                </p>
+                <p class="dates">Date 2021</p>
+            </div>
+            <div class="project">
+                <h4>Article journal</h4>
+                <img src="Article-journal.png" alt="">  
+                <p class="description">
+                    Article de journal réalisé suite à une au 104 PARIS dans le 19e 
+                            arondissement.
+                </p>
+                <p class="dates">Date 2021</p>
+            </div>
+         
+				</div>
+			</section>
+		</section>
 
 		<footer>
 			<div class="colonne">
@@ -110,13 +83,14 @@
 				<p>Persévérance</p>
 				<p>Agréable</p>
 			</div>
-			
+
+        
+                
 			<div class="colonne">
 				<h3>Mes adresses</h3>
-				<p>gregory.almont@orange.fr</p>
-                <p>linkedin.com/in/grégory-almont-481359206</p>				
+				<p>almont.gregory@orange.fr</p>
+				<p>linkedin.com/in/grégory-almont-481359206</p>
                 <p>06.50.78.46.82</p>
-				
 			</div>
 		</footer>
 	</body>
@@ -144,6 +118,11 @@
         display: flex;
         align-items: center;
     }
+    nav .profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
 
     nav .onglets a{
     text-decoration: none;
@@ -152,11 +131,7 @@
     border-bottom: 1px solid #000;
     padding-bottom: 5px;
 } 
-    nav .profile img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-    }
+
     nav .profile h1 {
         margin-left: 10px;
         font-size: 15px;
@@ -173,6 +148,18 @@
     nav ul li:hover {
         border-bottom-color: #000;
     }
+
+    .projects {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+     .project img{
+         display: flex;
+        width: 20%;
+        border-radius:10px;
+        box-shadow: 2px 3px;
+     }
+      
     
     .page-content {
         margin: 4%;
@@ -202,59 +189,6 @@
         border-bottom: 1px solid #ccc;
         cursor: pointer;
     }
-    .CV {
-        height:100px;
-        width: 200px;
-        background-color: grey;
-        margin-left: 220px;
-    }
-    
-    button {
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: grey;
-    color:#000;
-    border:none;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    width: 200px;
-    height: 100px;
-    overflow:hidden;
-    font-family: 'Segoe UI';
-    font-size: 20px;
-    display: block;
-
-    }
-
-.about .box .text h4
-{
-    text-transform: uppercase;
-    color:cornflowerblue;
-    font-size:16px;
-}
- .skills .box h4
-{
-text-transform: uppercase;
-color: #848c99;
-font-weight: 500;
-}
-.skills .box .percent
-{
-position: relative;
-width: 100%;
-height: 10px;
-background: rgb(209, 207, 207);
-}
-
-.skills .box .percent div{
-    position:absolute;
-    top:0;
-    left:00;
-    height: 100%;
-    background:rgb(3, 0, 207)
-}
-
-    
     .page-content header button:hover {
         color: #ccc;
         border-bottom-color: #000;
@@ -281,7 +215,7 @@ background: rgb(209, 207, 207);
     }
     .page-content .projects-section .project {
         margin-right: 20px;
-        max-width: 195px;
+        max-width: 400px;
     }
     .page-content .projects-section .project h4 {
         margin: 0;
