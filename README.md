@@ -10,7 +10,7 @@ Config files for my GitHub profile.
 			 Portfolio 
 		</title>
 	</head>
-	</head>
+	
 	<body>
 		<nav>
 			<div class="profile">
