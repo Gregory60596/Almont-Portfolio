@@ -22,14 +22,14 @@ Config files for my GitHub profile.
                     <a href="ALMONT Portfolio.html"> Accueil</a>
                     <a href="Réalisations.html"> Réalisations</a>
                     <a href="Curiculum vitae.html"> Curriculum Vitae</a>
-                    <a href="Contacter.html">Contact </li></a> 
+                    <a href="Contacter.html"> Contact</li></a> 
                 </ul>
             </div>
 		</nav>
 
 		<section class="page-content">
 			<header>
-				<h1>Bienvenue <br>je suis étudiant en DUT MMI</br> </h1>
+				<h1>Bienvenue <br>je suis étudiant en DUT MMI </br></h1>
 				<p>
 					Vous êtes arrivés sur l'espace personnel
                     de Grégory ALMONT, qui sera votre futur
@@ -49,7 +49,7 @@ Config files for my GitHub profile.
 					
             <div class="project">
                 <h4>Puzzle</h4>
-                <img src="Capture d’écran 2022-01-10 095246.png" alt=""> 
+                <img src="Capture d’écran 2022-01-10 095246.png"alt=""> 
                 <p class="description">
                     Puzzle réalisé à l'occasion du projet tutoré.
                     <br> Enigma puzzle qui pousse à la réflexion et au jeu </br>
