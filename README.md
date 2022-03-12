@@ -10,10 +10,11 @@ Config files for my GitHub profile.
 			 Portfolio 
 		</title>
 	</head>
+	</head>
 	<body>
 		<nav>
 			<div class="profile">
-				<img src="file:///C:/Users/klody/Downloads/ALMONT%20GREGORY%20TPB%20CV%20HTML%20CSS%20(1)/ALMONT%20GREGORY%20TPB%20CV%20HTML%20CSS/PHOTO_CV.jpg" alt="profile photo" />
+				<img src="PHOTO_CV.jpg" alt="profile photo" />
 				<h1>Grégory Almont</h1>
 			</div>
 			<div class="onglets">
@@ -48,7 +49,7 @@ Config files for my GitHub profile.
 					
             <div class="project">
                 <h4>Puzzle</h4>
-                <img src="file:///C:/Users/klody/OneDrive/Images/Capture%20d’écran%202022-01-10%20095246.png" alt=""> 
+                <img src="Capture d’écran 2022-01-10 095246.png" alt=""> 
                 <p class="description">
                     Puzzle réalisé à l'occasion du projet tutoré.
                     <br> Enigma puzzle qui pousse à la réflexion et au jeu </br>
@@ -57,7 +58,7 @@ Config files for my GitHub profile.
             </div>
             <div class="project">
                 <h4>T-shirt</h4>
-                <img src="file:///C:/Users/klody/Downloads/Capture%20d’écran%202020-12-24%20134142.png"alt=""> 
+                <img src="Tricot_lusophone.png"alt=""> 
                 <p class="description">
                     Fabrication de motifs.
                     <br> T-shirts symbolisant des villes de pays lusophones </br>
@@ -66,7 +67,7 @@ Config files for my GitHub profile.
             </div>
             <div class="project">
                 <h4>Article journal</h4>
-                <img src="file:///C:/Users/klody/Downloads/Article-journal.png" alt="">  
+                <img src="Article-journal.png" alt="">  
                 <p class="description">
                     Article de journal réalisé suite à une au 104 PARIS dans le 19e 
                             arondissement.
@@ -91,7 +92,7 @@ Config files for my GitHub profile.
 			<div class="colonne">
 				<h3>Mes adresses</h3>
 				<p>almont.gregory@orange.fr</p>
-				<p>https://fr.linkedin.com/in/gregoryalmont</p>
+				<p>linkedin.com/in/grégory-almont-481359206</p>
                 <p>06.50.78.46.82</p>
 			</div>
 		</footer>
